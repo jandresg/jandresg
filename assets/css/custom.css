@@ -19,6 +19,13 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.jumbotron,
+.jumbotron-fluid {
+  background-color: #fff;
+}
+.jumbo-image {
+  
+}
 
 /*
  * Base structure
