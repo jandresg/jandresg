@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
+    <!-- <meta http-equiv="refresh" content="5"> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,49 +11,215 @@
 
     <title>JandresG Design</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
 
   <body>
 
-  <nav class="navbar navbar-inverse" role="navigation">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" rel="home" href="https://jandresg.github.io/" title="Main Site">
+        <img style="max-width:150px; margin-top: 0px;" src="./assets/img/logoWhite.png">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" rel="home" href="https://jandresg.github.io/" title="Main Site">
-            <img style="max-width:150px; margin-top: 0px;" src="./assets/img/logoWhite.png">
-        </a>
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a href="http://jandresg.design">Showcase</a>
-          </li>
-          <li>
-            <a href="https://jandresg.github.io">Resume</a>
-          </li>
-          <li>
-            <a href="mailto://jandrresg@gmail.com">Email Me</a>
-          </li>
-        </ul>
-      </div>
-
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"  href="http://jandresg.design">Showcase<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
   </nav>
 
-  <div class="section content">
-    <div class="headerLogo">
-      <img src="./assets/img/logoBlockHeader.png" style="max-width: 500px"/>
+  <div class="jumbotron jumbotron-fluid section content" style="background-color: #fff">
+    <div class="container container-fluid text-center img-responsive">
+      <div class="headerLogo">
+        <img src="./assets/img/logoBlockHeader.png"/>
+      </div>
     </div>
   </div>
 
+  <div class="container">
+          <div class="card-columns">
+
+                  <div class="card">
+                      <div class="card-header">
+                          Card Header
+                      </div>
+                      <img class="card-img-top" src="https://source.unsplash.com/daily" alt="Card image top">
+                      <div class="card-body">
+                          <h3 class="card-title">Each Card body can have a title</h3>
+                          <h4 class="card-subtitle">And a subtitle</h4>
+                          <p class="card-text">This is a card body 1</p>
+                      </div>
+
+
+                      <div class="card-body">
+                          <h3 class="card-title">Card body 2 title</h3>
+                          <h4 class="card-subtitle">And subtitle</h4>
+                          <p class="card-text">You can also add a second body or even more</p>
+                      </div>
+                      <img class="card-img-bottom" src="https://source.unsplash.com/daily" alt="Card image bottom">
+                      <div class="card-footer">
+                          Card Footer
+                      </div>
+                  </div>
+
+
+                  <div class="card">
+
+                      <img class="card-img-top" src="https://source.unsplash.com/daily?nature" alt="Card image top">
+                      <div class="card-img-overlay">
+                          <h3 class="card-title">Card title</h3>
+                          <h4 class="card-subtitle">Card subtitle</h4>
+                          <p class="card-text">You can use the cap image as an overlay for the body</p>
+                      </div>
+                  </div>
+
+                  <div class="card">
+
+                      <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image top">
+                      <div class="card-img-overlay white">
+                          <h3 class="card-title">Card title</h3>
+                          <h4 class="card-subtitle">Card subtitle</h4>
+                          <p class="card-text">You can add links to card body</p>
+                          <a href="#" class="card-link">Link 1</a>
+                          <a href="#" class="card-link">Link 2</a>
+                      </div>
+                  </div>
+
+                  <div class="card  card-primary p-3 text-center">
+                      <ul class="list-group">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                      </ul>
+
+                  </div>
+
+                  <div class="card text-white border-danger bg-danger p-1 text-center">
+
+                      <div class="card-body">
+                          <h2 class="card-title"> My Card</h2>
+                          <p class="card-text"> This is a simple centered text </p>
+                      </div>
+
+                  </div>
+
+                  <div class="card text-primary border-primary">
+
+                      <div class="card-body">
+                          <h2 class="card-title"> My List</h2>
+                          <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Item 1</li>
+                              <li class="list-group-item">Item 2</li>
+                              <li class="list-group-item">Item 3</li>
+                          </ul>
+                      </div>
+
+                  </div>
+
+                  <div class="card border-danger text-primary">
+                      <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image cap">
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Card text</p>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Item 1</li>
+                          <li class="list-group-item">Item 2</li>
+                          <li class="list-group-item">Item 3</li>
+                      </ul>
+                      <div class="card-body">
+                          <a href="#" class="card-link">Link 1</a>
+                          <a href="#" class="card-link">Link 2</a>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="card-header">
+                          <ul class="nav nav-tabs card-header-tabs">
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="#">Tab 1</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Tab 2</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Tab 3</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image top">
+                      <div class="card-body">
+                          <h3 class="card-title">Card title</h3>
+                          <h4 class="card-subtitle">Card subtitle</h4>
+                          <p class="card-text">You can add navigation (navigation and pills) to card header</p>
+                      </div>
+                  </div>
+
+                  <div class="card">
+                      <div class="card-header">
+                          <ul class="nav  nav-pills card-header-pill">
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="#">Pill 1</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Pill 2</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Pill 3</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <img class="card-img-top" src="https://source.unsplash.com/daily?wood" alt="Card image top">
+                      <div class="card-body">
+                          <h3 class="card-title">Card title</h3>
+                          <h4 class="card-subtitle">Card subtitle</h4>
+                          <p class="card-text">You can add navigation (navigation and pills) to card header</p>
+                      </div>
+                  </div>
+
+                  <div class="card text-white bg-dark mt-5">
+                      <div class="card-header">This is a Header</div>
+                      <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a text </p>
+                      </div>
+                  </div>
+
+          </div>
+
+      </div>
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./assets/js/custom.js"></script>
   </body>
 </html>
