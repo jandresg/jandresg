@@ -18,6 +18,21 @@ width: auto;
 text-align: center;
 background-color: #fff;
 }
+
+.frame {
+  width: 615px;
+  height: 615px;
+  -ms-transform: scale(0.5);
+   -moz-transform: scale(0.5);
+   -o-transform: scale(0.5);
+   -webkit-transform: scale(0.5);
+  transform: scale(0.50);
+  -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
 .card-columns {
   @include media-breakpoint-only(lg) {
     column-count: 4;
