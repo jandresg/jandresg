@@ -20,8 +20,9 @@ background-color: #fff;
 }
 
 .frame {
-  width: 615px;
-  height: 615px;
+  text-align: center;
+  width: 620px;
+  height: 630px;
   -ms-transform: scale(0.5);
    -moz-transform: scale(0.5);
    -o-transform: scale(0.5);
